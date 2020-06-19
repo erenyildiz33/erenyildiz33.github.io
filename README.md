@@ -12,7 +12,8 @@ Format: ![Alt Text]()
 1. Item 3
    1. Item 3a
    1. Item 3b
-
+http://github.com - automatic!
+[GitHub](http://github.com)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
