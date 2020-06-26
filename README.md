@@ -4,6 +4,17 @@ You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+![GitHub Logo](/images/logo.png) 
+Format: ![Alt Text]()
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+http://github.com - automatic!
+[GitHub](http://github.com)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -19,7 +30,7 @@ Syntax highlighted code block
 -liste
 
 1. Numbered
-2. List
+2. Liste
 
 **Bold** and _Italic_ and `Code` text
 
