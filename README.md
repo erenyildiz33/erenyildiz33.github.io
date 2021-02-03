@@ -8,10 +8,11 @@ I am interested in embedded systems, machine learning, and combine of these rese
 Academic Profiles    [<img src="/Gscholar.png" alt="Your image title" width="30"/>](https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ)
 
 ## Education
-M.Sc, Mersin University Electrical Electronics Engineering Department.
+-**M.Sc, Mersin University Electrical Electronics Engineering Department.**
 Thesis title: Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
 In Social Network.
-B.Eng, Mersin University Electrical Electronics Engineering.
+
+-**B.Eng, Mersin University Electrical Electronics Engineering.**
 
 
 
