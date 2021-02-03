@@ -1,6 +1,7 @@
 ## Biography
+I am a PhD Student at the Department of Computer Engineering, Ege University.
 
-
+My supervisors are [Dr. Kasım Sinan Yıldırım](https://sinanyil81.github.io/index.html) and Dr. Birol Çiloğlugil.
 
 You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
