@@ -17,7 +17,14 @@ In Social Network.
 
 ## Publication
  
-
+- Defragmenting Energy Storage in Batteryless Sensing Devices, ENSsys 2020.
+- On the accuracy of network synchronization using persistent hourglass clocks, ENSsys 2019.
+- Automatic Detection of Cyberbullying in FORMSPRING. Me, Myspace and Youtube Social Networks, Turkish Journal of Engineering, 2019.
+- Performance Analysis of Artificial Neural Network Based Classfiers for Cyberbulling Detection, UBMK 2018.
+- The effects of attribute selection in artificial neural network based classifiers on cyberbullying detection, UBMK 2018.
+- Improved splash-plate feed parabolic reflector antenna for Ka-Band VSAT applications, EuMC 2016.
+- A novel ultra-wide band design for feeding structure of Ka Band VSAT parabolic reflector antenna, MIKON 2016.
+- Low noise amplifier design for Ka Band VSAT systems, MIKON, 2016.
 
 
 You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
