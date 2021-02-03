@@ -5,7 +5,7 @@ My supervisors are [Dr. Kasım Sinan Yıldırım](https://sinanyil81.github.io/i
 
 I am interested in embedded systems, machine learning, and combine of these research topics. I am focused on system support for batteryless sensor devices powered by ambient energy sources such as RF, solar, and vibration, and intermitting programming in my Ph.D. Thesis. My goal is to develop hardware architectures that increase the energy efficiency of battery-free devices and software techniques that will enable the device to continue where it left off under intermittent computing.
 
-Academic Profiles [logo_gscholar](scholar.png)(https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ)
+Academic Profiles [logo_gscholar](/scholar.png)(https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ)
 
 
 ## Education
