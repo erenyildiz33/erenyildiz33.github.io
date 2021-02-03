@@ -1,7 +1,10 @@
 ## Biography
 I am a PhD Student at the Department of Computer Engineering, Ege University.
 
-My supervisors are [Dr. Kasım Sinan Yıldırım](https://sinanyil81.github.io/index.html) and Dr. Birol Çiloğlugil.
+My supervisors are [Dr. Kasım Sinan Yıldırım](https://sinanyil81.github.io/index.html) and [Dr. Birol Çiloğlugil](https://avesis.ege.edu.tr/birol.ciloglugil).
+
+I am interested in embedded systems, machine learning, and combine of these research topics. I am focused on system support for batteryless sensor devices powered by ambient energy sources such as RF, solar, and vibration, and intermitting programming in my Ph.D. Thesis. My goal is to develop hardware architectures that increase the energy efficiency of battery-free devices and software techniques that will enable the device to continue where it left off under intermittent computing.
+
 
 You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
