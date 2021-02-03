@@ -1,10 +1,12 @@
-## Welcome to GitHub Pages
+## Biography
+
+
 
 You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![GitHub Logo](/vesikalık.jpg) 
+![GitHub Logo](/images/logo.png) 
 Format: ![Alt Text]()
 
 1. [EGE](https://bilmuh.ege.edu.tr/index.php)
