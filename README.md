@@ -1,4 +1,6 @@
 ## Biography
+
+[<img src="/vesikalaık.png" alt="Your image title" width="150"/>]
 I am a PhD Student at the [Department of Computer Engineering, Ege University].(https://bilmuh.ege.edu.tr/index.php)
 
 My supervisors are [Dr. Kasım Sinan Yıldırım](https://sinanyil81.github.io/index.html) and [Dr. Birol Çiloğlugil](https://avesis.ege.edu.tr/birol.ciloglugil).
