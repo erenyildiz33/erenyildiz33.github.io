@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/erenyildiz33/erenyildiz33.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![GitHub Logo](/images/logo.png) 
+![GitHub Logo](/vesikalık.jpg) 
 Format: ![Alt Text]()
 
 1. [EGE](https://bilmuh.ege.edu.tr/index.php)
