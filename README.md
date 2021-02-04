@@ -36,9 +36,3 @@ E-mail: eren.yildiz@ege.edu.tr - erencuruk@gmail.com
 
 Phone: +90 (232) 311 53 09
 
-
-.saga-kaydir{
-float:right;
-padding:0 0 10px 10px;
-}
- 
