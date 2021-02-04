@@ -24,7 +24,7 @@ In Social Network.
 
 ## Publication
  
-- Defragmenting Energy Storage in Batteryless Sensing Devices, ENSsys 2020.
+- Defragmenting Energy Storage in Batteryless Sensing Devices, ENSsys 2020. 
 - On the accuracy of network synchronization using persistent hourglass clocks, ENSsys 2019.
 - Automatic Detection of Cyberbullying in FORMSPRING. Me, Myspace and Youtube Social Networks, Turkish Journal of Engineering, 2019.
 - Performance Analysis of Artificial Neural Network Based Classfiers for Cyberbulling Detection, UBMK 2018.
