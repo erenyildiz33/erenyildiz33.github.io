@@ -1,6 +1,6 @@
 ## Biography
 
-[<img src="/vesikalık.jpg" awidth="150"/>]
+<img src="/vesikalık.jpg" awidth="150"/>
 
 [<img src="/Gscholar.png" alt="Your image title" width="30"/>](https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ)
 
@@ -33,4 +33,7 @@ In Social Network.
 
 ## Contact
 
+E-mail: eren.yildiz@ege.edu.tr - erencuruk@gmail.com
+
+Phone: +90 (232) 311 53 09
 
