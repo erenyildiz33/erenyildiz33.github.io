@@ -3,6 +3,7 @@
 <img src="/vesikalık.jpg" awidth="150"/>
 
 [<img src="/Gscholar.png" alt="Your image title" width="30"/>](https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ)
+[<img src="/linkedin.png" alt="Your image title" width="30"/>](https://www.linkedin.com/in/eren-y%C4%B1ld%C4%B1z-3376b5101/)
 
 I am a PhD Student at the [Department of Computer Engineering, Ege University].(https://bilmuh.ege.edu.tr/index.php)
 
