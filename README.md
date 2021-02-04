@@ -11,6 +11,10 @@ I am interested in embedded systems, machine learning, and combine of these rese
 [<img src="/git.png" alt="Your image title" width="30"/>](https://github.com/erenyildiz33/)
 
 ## Education
+
+- **Ph.D., Ege University Computer Engineering Department.**
+Thesis title: System Support for Efficient Operation of Batteryless Sensor.
+
 - **M.Sc, Mersin University Electrical Electronics Engineering Department.**
 Thesis title: Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
 In Social Network.
