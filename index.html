@@ -22,6 +22,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+li {
+	margin: 10px;
+}
 /* Style the header */
 .header {
   grid-area: header;
@@ -53,7 +56,7 @@ body {
 /* Style the left column */
 .left {
   grid-area: left;
-   width: 300px; 
+   width: 100px; 
    
 }
 
@@ -65,8 +68,8 @@ body {
 /* Style the right column */
 .right {
   grid-area: right;
-  width: 300px;
-  
+  width: 100px;
+
 }
 
 /* Style the footer */
@@ -74,14 +77,28 @@ body {
   grid-area: footer;
   padding: 10px;
   text-align: center;
-  background-color: #AED6F1 ;
+    background-color: #AED6F1 ;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
 </style>
 </head>
 <body>
+<h2>CSS Template using Grid</h2>
+<p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> The Grid Layout Module is not supported in Internet Explorer or Edge 15 eand earlier versions.</p>
+
 <div class="grid-container">
   <div class="header">
     <h2><a href="https://erenyildiz33.github.io/index.html" class="button">Home</a><a href="https://erenyildiz33.github.io/index.html" class="button">Education</a><a href="https://erenyildiz33.github.io/index.html" class="button">Publications</a><a href="https://erenyildiz33.github.io/index.html" class="button">Contact</a></h2>
@@ -107,12 +124,12 @@ I am interested in embedded systems, machine learning, and combine of these rese
 <p><h3></h3></p>
 <p><h3>Education</h3></p>
   <ul>
-  <li><strong>Ph.D., Ege University Computer Engineering Department.</strong>
-  <p><strong>Thesis title:</strong> System Support for Efficient Operation of Batteryless Sensor.</p></li>
-  <li><strong>M.Sc, Mersin University Electrical Electronics Engineering Department.</strong>
-  <p><strong>Thesis title:</strong> Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
-In Social Network.</p></li>
-  <li><strong>B.Eng, Mersin University Electrical Electronics Engineering.<strong></li>
+  <li>Ph.D., Ege University Computer Engineering Department.
+<p>Thesis title: System Support for Efficient Operation of Batteryless Sensor.</p></li>
+  <li>**M.Sc, Mersin University Electrical Electronics Engineering Department.**
+Thesis title: Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
+In Social Network.</li>
+  <li>B.Eng, Mersin University Electrical Electronics Engineering.</li>
 </ul>
   
 
@@ -144,4 +161,3 @@ In Social Network.</p></li>
 
 </body>
 </html>
-
