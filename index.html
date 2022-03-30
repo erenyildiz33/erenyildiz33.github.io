@@ -1,114 +1,162 @@
-<nav class="navbar navbar-fixed-top" role="navigation">
-  <div class="left-nav col-md-2">
-      <a href="#about" class="agb-links">
-        <button type="button" class="btn btn-default navbar-btn agb-links"><h2>About</h2></button>
-      </a>
-      <a href="#projects">
-        <button type="button" class="btn btn-default navbar-btn agb-links"><h2>Projects</h2></button>
-      </a>
-      <a href="#contact">
-        <button type="button" class="btn btn-default navbar-btn agb-links"><h2>Contact</h2></button>
-      </a>
-  </div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Eren Yıldız</title>
+<meta charset="utf-8">
+<link rel="icon" sizes="157x157" href="/EY_logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .button {
+  background-color: #D6EAF8;
+  border: none;
+  color: #1F618D;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
 
-<div class=".container-fluid">
-<div class="jumbotron" id="about">
-  <div class="row" id="about">
-    <div class="col-md-2"></div>
-    <div class="col-md-4">
-      <img src="https://avatars.githubusercontent.com/u/13804051?v=3" id="profile" class="img-circle img-responsive center">
-    </div>
-    <div class="col-md-5 header-info">
-      <h1>Andrew Bales</h1>
-      <p>I'm a software engineer with a passion for telling stories with data. Let's talk!</p>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li{
+	margin: 10px;
+}
+
+/* Style the header */
+.header {
+  background-color: #AED6F1;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  height: 100px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #AED6F1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h2><a href="https://erenyildiz33.github.io/index.html" class="button">Home</a><a href="#education" class="button">Education</a><a href="#publications" class="button">Publications</a><a href="#contact" class="button">Contact</a></h2>
 </div>
-
-
-
-
-<div class="row" id="projects">
-  <div class="col-md-2"></div>
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <img src="http://www.ucenglishcatalog.com/wp-content/uploads/2015/11/fiction-writing-1024x683.jpg" alt="UC English Catalog">
-        <div class="caption">
-          <h3>UC English Catalog</h3>
-          <p>Course catalog built for undergradutes-- particularly non-majors-- to explore the offerings from the English department at the University of Cincinnati.</p>
-          <p><a href="#" class="btn btn-default" role="button">View</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="https://andrewbales.files.wordpress.com/2015/08/whiteout-mockup.jpg?w=1680&h=1120" alt="Andrew Bales website">
-      <div class="caption">
-        <h3>AndrewBales.com</h3>
-        <p>Personal webpage featuing writing, graphic design, video, and web work. Built with Wordpress.</p>
-        <p><a href="#" class="btn btn-default" role="button">View</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-</div>
-
 
 <div class="row">
-  <div class="col-md-2"></div>
-    <div class="col-md-4">
-      
-      <div class="thumbnail">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bdebc019059831.562d45d045ba0.jpg" alt="Riordan Clinic Project">
-        <div class="caption">
-          <h3>Riordan Clinic</h3>
-          <p>Graphic design work produced with archival materials from the Riordan Clinic in Wichita, Kansas.</p>
-          <p><a href="#" class="btn btn-default" role="button">View</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4"> 
-      <div class="thumbnail">
-          <img src="https://i.vimeocdn.com/video/480767556_1280x720.jpg" alt="Vimeo portfolio">
-          <div class="caption">
-          <h3>Video Projects</h3>
-          <p>Short films & Promotional work.</p>
-          <p><a href="#" class="btn btn-default" role="button">Video</a></p>
-       </div>
-    </div>
-    <div class="col-md-2"></div>
+  <div class="column side" style="background-color:white;"></div>
+  <div class="column middle" style="background-color:white;">
+  
+  
+  <h3>Biography</h3>  
+
+<a><img align="left" src="/vesikalık.jpg" class="saga-kaydir" width="150"/> 
+
+<p>I am a PhD candidate as a third year student in the <a href="https://bilmuh.ege.edu.tr/eng-/Homepage.html">Department of Computer Engineering at Ege University</a>
+under mentorship <a href="https://sinanyil81.github.io/index.html">Dr. Kasım Sinan Yıldırım</a> and <a href="https://avesis.ege.edu.tr/birol.ciloglugil">Dr. Birol Çiloğlugil</a>.
+I am interested in embedded systems, machine learning, and combine of these research topics. I am focused on system support for batteryless sensor devices powered by ambient energy sources such as RF, solar, and vibration, and intermitting programming in my Ph.D. Thesis. My goal is to develop hardware architectures that increase the energy efficiency of battery-free devices and software techniques that will enable the device to continue where it left off during intermittent computing.</p>
+
+
+<p><h3></h3></p>
+	
+<hr>
+	
+<p><h3 id="education">Education</h3></p>
+  <ul>
+  <li>Ph.D., Ege University Computer Engineering Department.
+<p><Strong>Thesis title:</Strong> System Support for Efficient Operation of Batteryless Sensor.</p></li>
+  <li>M.Sc, Mersin University Electrical Electronics Engineering Department.
+<p><Strong>Thesis title:</Strong>  Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
+In Social Network.</p></li>
+  <li>B.Eng, Mersin University Electrical Electronics Engineering.</li>
+</ul>
+  
+<hr>
+	
+<h3 id="publications">Publications</h3>  
+
+<ul>
+  <li><a href="https://arxiv.org/abs/2201.11433">ETAP: Energy-aware Timing Analysis of Intermittent Programs</a>, arXiv.</li> 
+  <li><a href="https://dl.acm.org/doi/abs/10.1145/3485730.3493361">Persistent Timekeeping Using Harvested Power Measurements</a>, Sensys'21 - ENSsys workshop.</li> 
+  <li><a href="https://dl.acm.org/doi/10.1145/3417308.3430271">Defragmenting Energy Storage in Batteryless Sensing Devices</a>, ENSsys 2020.</li> 
+  <li><a href="https://dl.acm.org/doi/10.1145/3362053.3363497">On the accuracy of network synchronization using persistent hourglass clocks</a>, ENSsys 2019.</li> 
+  <li>Automatic Detection of Cyberbullying in FORMSPRING. Me, Myspace and Youtube Social Networks, Turkish Journal of Engineering, 2019.</li>
+  <li>Performance Analysis of Artificial Neural Network Based Classfiers for Cyberbulling Detection, UBMK 2018.</li>
+  <li>The effects of attribute selection in artificial neural network based classifiers on cyberbullying detection, UBMK 2018.</li>
+  <li>Improved splash-plate feed parabolic reflector antenna for Ka-Band VSAT applications, EuMC 2016.</li>
+  <li>A novel ultra-wide band design for feeding structure of Ka Band VSAT parabolic reflector antenna, MIKON 2016.</li>
+  <li>Low noise amplifier design for Ka Band VSAT systems, MIKON, 2016.</li>
+</ul>
+ 
+<hr>
+	
+<h3 id="awardsandhonors">Awards and Honors</h3>  
+<ul>
+   <li> 2214-A - International Research Fellowship Programme for PhD Students Scholarship, TUBİTAK  (Turkish Research Foundation), 2020.</li> 
+
+
+</ul>
+
   </div>
+  <div class="column side" style="background-color:white;"></div>
 </div>
-      
-<div class="row social-media-row" id="contact">
-  <div class="col-md-2"></div>
-    <div class="col-md-8 icon-row">
-      <div class="business-card">
-        <h2>Andrew Bales</h2>
-          <p>543 Business Way</p>
-          <p>Cincinnati, Ohio</p>
-          <p>(555) 555.5555</p>
 
-          <hr>
+<div class="footer">
+  <h3 id="contact">Contact</h3>  
 
-          <div class="icon-set">
-              <a href="https://github.com/agbales" target="_blank" class="btn btn-lg btn-social-icon">
-                <span class="fa fa-github"></span>
-              </a>
-              <a href="https://twitter.com/agbales" target="_blank"class="btn btn-lg btn-social-icon">
-                <span class="fa fa-twitter"></span>
-              </a>
-              <a href="https://vimeo.com/agbales" target="_blank" class="btn btn-lg btn-social-icon">
-                <span class="fa fa-vimeo"></span>
-              </a>
-              <a href="https://freecodecamp.com/agbales" target="_blank">
-                <img src="https://cdn.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg" width="60px"> 
-              </a>
-           </div> 
-        </div> 
-     </div>
-   <div class="col-md-2"></div>
+  <p>E-mail: eren.yildiz@ege.edu.tr - erencuruk@gmail.com</p>
+
+<p>Phone: +90 (232) 311 53 09</p>
+</a>
+<a href="https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ">
+<img src="/Gscholar.png" alt="https://scholar.google.com/citations?hl=en&authuser=1&user=b_KYI84AAAAJ" width="30"/></a>
+<a href="https://www.linkedin.com/in/eren-y%C4%B1ld%C4%B1z-3376b5101/">
+<img src="/linkedin.png" alt="https://www.linkedin.com/in/erenyildiz33/" width="30"/></a>
+<a href="https://github.com/erenyildiz33/">
+<img src="/git.png" alt="https://github.com/erenyildiz33/" width="30"/></a>
+
 </div>
+
+</body>
+</html>
