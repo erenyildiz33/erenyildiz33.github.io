@@ -6,7 +6,7 @@ const animData = {
     renderer: 'svg',
     loop: false,
     autoplay: false,
-    path: 'stick-man.json'
+    path: '/stick-man.json'
 };
 
 const anim = lottie.loadAnimation(animData);
