@@ -1,15 +1,31 @@
-# Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
-description: >
-  A guide to getting started with Jekyll.
-baseurl: "/startjekyll"
-url: "https://erenyildiz33.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
-# Build Settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+
+# Setup
+title: Hyde
+tagline: 'A Jekyll theme'
+description: 'A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.'
+url: http://erenyildiz33.github.io
+baseurl: "/"
+
+author:
+  name: 'Mark Otto'
+  url: https://twitter.com/mdo
+
+paginate: 5
+
+# Custom vars
+version: 2.1.0
+
+github:
+  repo: https://github.com/poole/hyde
+
+theme: jekyll-theme-hyde
+
+plugins:
+  - jekyll-github-metadata
+
