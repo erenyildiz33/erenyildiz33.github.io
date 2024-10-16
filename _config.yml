@@ -4,11 +4,16 @@ highlighter: pygments
 
 # Permalinks
 permalink: pretty
+# Custom vars
+version: 2.1.0
+
+profile_image: "/assets/images/profile.jpg"
+
 
 # Setup
 title: Eren Yildiz, Ph.D.
 tagline: ''
-description: 'Post doctoral researcher at Georgia Institute of Technology.'
+description: 'Post Doc. at GA Tech.'
 url: http://erenyildiz33.github.io
 baseurl: "/"
 
@@ -28,5 +33,7 @@ github:
 remote_theme: hydecorp/hydejack@v9
 
 plugins:
-  - jekyll-github-metadata
+  - jekyll-gist
+  - jekyll-paginate
+  #- jekyll-github-metadata
 
