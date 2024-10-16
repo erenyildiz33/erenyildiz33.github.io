@@ -24,7 +24,8 @@ version: 2.1.0
 github:
   repo: https://github.com/poole/hyde
 
-theme: jekyll-theme-hyde
+#theme: jekyll-theme-hyde
+remote_theme: hydecorp/hydejack@v9
 
 plugins:
   - jekyll-github-metadata
