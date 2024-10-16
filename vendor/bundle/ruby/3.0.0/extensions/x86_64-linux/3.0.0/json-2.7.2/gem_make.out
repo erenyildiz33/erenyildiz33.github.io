@@ -1,0 +1,13 @@
+current directory: /home/erenyildiz/Desktop/Github/WebProjects/basic/erenyildiz33.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20241016-64870-5c55nf.rb extconf.rb
+creating Makefile
+
+current directory: /home/erenyildiz/Desktop/Github/WebProjects/basic/erenyildiz33.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\= clean
+
+current directory: /home/erenyildiz/Desktop/Github/WebProjects/basic/erenyildiz33.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\=
+make: Nothing to be done for 'all'.
+
+current directory: /home/erenyildiz/Desktop/Github/WebProjects/basic/erenyildiz33.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\= install
