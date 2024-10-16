@@ -88,7 +88,7 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 ### Images
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
+<img src="{{ site.baseurl }}{{ site.profile_image }}" alt="Eren Yildiz" style="width:100px;height:100px;"/>
 ![placeholder](http://placehold.it/800x400 "Large example image")
 ![placeholder](http://placehold.it/400x200 "Medium example image")
 ![placeholder](http://placehold.it/200x200 "Small example image")
