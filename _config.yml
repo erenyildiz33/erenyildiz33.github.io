@@ -8,13 +8,13 @@ permalink: pretty
 # Setup
 title: Eren Yildiz, Ph.D
 tagline: ''
-description: 'A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.'
+description: 'Post doctoral researcher aat Georgia Isntitute of Technology.'
 url: http://erenyildiz33.github.io
 baseurl: "/"
 
 author:
-  name: 'Mark Otto'
-  url: https://twitter.com/mdo
+  name: 'Eren Yildiz'
+  url: #https://twitter.com/mdo
 
 paginate: 5
 
