@@ -6,9 +6,9 @@ highlighter: pygments
 permalink: pretty
 
 # Setup
-title: Eren Yildiz, Ph.D
+title: Eren Yildiz, Ph.D.
 tagline: ''
-description: 'Post doctoral researcher aat Georgia Isntitute of Technology.'
+description: 'Post doctoral researcher at Georgia Institute of Technology.'
 url: http://erenyildiz33.github.io
 baseurl: "/"
 
