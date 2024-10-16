@@ -24,7 +24,11 @@ version: 2.1.0
 github:
   repo: https://github.com/poole/hyde
 
-theme: jekyll-theme-hyde
+# theme: jekyll-theme-hyde  # Bu satırı kaldır
+
+# Eğer temayı manuel eklediysen:
+theme: hyde
+
 
 plugins:
   - jekyll-github-metadata
