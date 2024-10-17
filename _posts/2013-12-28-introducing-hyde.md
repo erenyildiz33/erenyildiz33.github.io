@@ -3,19 +3,19 @@ layout: post
 title: Eren Yildiz
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+I hold a Ph.D. degree from the Department of Computer Engineering at Ege University, specializing in embedded systems. Specifically, I am interested in exploring the realm of batteryless sensor devices that harvest power from ambient energy sources like RF, solar, and vibration. Throughout my Ph.D. thesis, I have dedicated my efforts to investigating system support for these devices, particularly focusing on intermitting programming and developing novel runtime techniques and hardware advancements. The primary objectives of my research are to enhance the programmability, energy efficiency, and overall performance of batteryless devices.
 
-### Built on Poole
+### Research Interests
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+* Intermittent Computing
+* Embedded Runtime Software
+* Low-power Computing
+* Energy Harvesting Systems
+* Hardware Design
+* Embedded AI
+* Deep Learning 
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
-
+<!--
 ### Hyde features
 
 In addition to the features of Poole, Hyde adds the following:
@@ -35,3 +35,4 @@ Hyde is by preference a forward-thinking project. In addition to the latest vers
 Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+-->
