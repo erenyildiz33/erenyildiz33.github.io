@@ -12,9 +12,8 @@ title: Publications
 <ul>
   <li><a href="https://sensys.acm.org/2024/">Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge</a>, SenSys 2024. </li> 
   <li><a href="https://ewsn24.tii.ae/">Memory-efficient Energy-adaptive Inference of Pre-Trained Models on Batteryless Embedded Systems</a>, EWSN 2024. </li> 
-  <li><a href="https://www.enssys.org/2024/">EOn Tracking Time with Better Resolution and Range in Batteryless Systems</a>,  ENSsys 2024. </li> 
+  <li><a href="https://www.enssys.org/2024/">On Tracking Time with Better Resolution and Range in Batteryless Systems</a>,  ENSsys 2024. </li> 
   <li><a href="https://bsn.embs.org/2024">Bootstrapping health wearables powered by Intra-Body Power Transfer</a>, BSN 2024. </li> 
-  <li><a href="https://dl.acm.org/doi/abs/10.1145/3627703.3650070">Efficient and Safe I/O Operations for Intermittent Systems</a>, EuroSys 2023. </li> 
   <li><a href="https://2023.eurosys.org/accepted-papers.html">Adaptable Runtime Monitoring for Intermittent Systems</a>, EuroSys 2024. </li> 
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3628353.3628547">Enabling Efficient Intermittent Computing on Brand New Microcontrollers via Tracking Programmable Voltage Thresholds</a>,  ENSsys 2023. </li> 
   <li><a href="https://2023.eurosys.org/accepted-papers.html">Efficient and Safe I/O Operations for Intermittent Systems</a>, EuroSys 2023. </li> 
