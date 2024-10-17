@@ -62,6 +62,7 @@ html {
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
+    padding: 1rem 1rem 0 1rem;
     top: 0;
     left: 0;
     bottom: 0;
@@ -79,6 +80,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+  padding-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 2.25rem;
 }
