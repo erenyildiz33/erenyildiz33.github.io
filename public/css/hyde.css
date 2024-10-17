@@ -54,11 +54,14 @@ html {
  */
 
 .sidebar {
-  text-align: left;
-  padding: 2rem 1rem;
-  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* İçeriği üst kısma hizalar */
+  align-items: center; /* İçeriği yatayda ortalar */
+  padding: 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  height: 100vh; /* Sidebar'ı tam yükseklikte yapar */
 }
 @media (min-width: 48em) {
   .sidebar {
