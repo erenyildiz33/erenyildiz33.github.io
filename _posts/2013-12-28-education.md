@@ -1,0 +1,13 @@
+---
+layout: post
+title: Education
+---
+
+ <ul>
+  <li>Ph.D., Ege University Computer Engineering Department.
+<p><Strong>Thesis title:</Strong> System Support for Efficient Operation of Batteryless Sensor.</p></li>
+  <li>M.Sc, Mersin University Electrical Electronics Engineering Department.
+<p><Strong>Thesis title:</Strong>  Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
+In Social Network.</p></li>
+  <li>B.Eng, Mersin University Electrical Electronics Engineering.</li>
+</ul>
