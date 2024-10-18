@@ -11,7 +11,7 @@ title: Education
   <li><Strong>M.Sc<Strong>, Mersin University Electrical Electronics Engineering Department, 2018.
 <p><Strong>Thesis title:</Strong>  Cyberbullying Detection And Classification With Artificial Intelligence Algorithms
 In Social Network.</p></li>
-  <li><Strong>B.Eng<Strong>, Mersin University Electrical Electronics Engineering, 2014.</li>
-  <li><Strong>B.Eng<Strong>,  Universitat Politecnica de Valencia Electronics Engineering (Erasmus Ex-
-change Student), 2011-2012.</li>
+<p><li><Strong>B.Eng<Strong>, Mersin University Electrical Electronics Engineering, 2014.<p></li>
+<p><li><Strong>B.Eng<Strong>,  Universitat Politecnica de Valencia Electronics Engineering (Erasmus Ex-
+change Student), 2011-2012.<p></li>
 </ul>
