@@ -3,7 +3,7 @@ layout: post
 title: Eren Yildiz
 ---
 
-I hold a Ph.D. degree from the Department of Computer Engineering at Ege University, specializing in embedded systems. Specifically, I am interested in exploring the realm of batteryless sensor devices that harvest power from ambient energy sources like RF, solar, and vibration. Throughout my Ph.D. thesis, I have dedicated my efforts to investigating system support for these devices, particularly focusing on intermitting programming and developing novel runtime techniques and hardware advancements. The primary objectives of my research are to enhance the programmability, energy efficiency, and overall performance of batteryless devices.
+I am a Postdoctoral Researcher at the Georgia Institute of Technology, specializing in embedded systems with a particular focus on batteryless sensor devices. I earned my Ph.D. in Computer Engineering from Ege University, where my research concentrated on energy-harvesting systems powered by ambient sources such as RF, solar, and vibration. My work investigates system-level support for intermittently powered devices, contributing to areas like runtime software, hardware/software co-design, and intermittent computing. The central aim of my research is to enable ultra-low-power and self-sustaining systems that can operate reliably without batteries. By enhancing the programmability, energy efficiency, and resilience of these devices, I aim to contribute to the development of sustainable and environmentally conscious computing technologies for a greener future.
 
 ### Research Interests
 
