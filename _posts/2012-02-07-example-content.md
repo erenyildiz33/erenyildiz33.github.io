@@ -10,6 +10,7 @@ title: Publications
 -->
 
 <ul>
+  <li><a href="https://dl.acm.org/doi/10.1145/3737288">CapDYN: Adaptive Self-Scaling Energy Storage for Powering Batteryless IoT</a>, ACM Transactions on Embedded Computing Systems (TECS), 2025.</li> 
   <li><a href="https://dl.acm.org/doi/10.1145/3666025.3699335">Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge</a>, SenSys 2024. </li> 
   <li><a href="https://ewsn24.tii.ae/">Memory-efficient Energy-adaptive Inference of Pre-Trained Models on Batteryless Embedded Systems</a>, EWSN 2024. </li> 
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3698384.3699617">On Tracking Time with Better Resolution and Range in Batteryless Systems</a>,  ENSsys 2024. </li> 
@@ -18,7 +19,7 @@ title: Publications
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3628353.3628547">Enabling Efficient Intermittent Computing on Brand New Microcontrollers via Tracking Programmable Voltage Thresholds</a>,  ENSsys 2023. </li> 
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3552326.3587435">Efficient and Safe I/O Operations for Intermittent Systems</a>, EuroSys 2023. </li> 
   <li><a href="https://www.usenix.org/conference/osdi22/presentation/yildiz">Immortal Threads: Multithreaded Event-driven Intermittent Computing on Ultra-Low-Power Microcontrollers</a>, 16th USENIX Symposium on Operating Systems Design and Implementation (OSDI 22).</li> 
-  <li><a href="https://dl.acm.org/doi/abs/10.1145/3563216">ETAP: Energy-aware Timing Analysis of Intermittent Programs</a>, ACM Transactions on Embedded Computing Systems (TECS).</li> 
+  <li><a href="https://dl.acm.org/doi/abs/10.1145/3563216">ETAP: Energy-aware Timing Analysis of Intermittent Programs</a>, ACM Transactions on Embedded Computing Systems (TECS), 2023.</li> 
   <li><a href="https://dl.acm.org/doi/abs/10.1145/3485730.3493361">Persistent Timekeeping Using Harvested Power Measurements</a>, Sensys'21 - ENSsys workshop.</li> 
   <li><a href="https://dl.acm.org/doi/10.1145/3417308.3430271">Defragmenting Energy Storage in Batteryless Sensing Devices</a>, ENSsys 2020.</li> 
   <li><a href="https://dl.acm.org/doi/10.1145/3362053.3363497">On the accuracy of network synchronization using persistent hourglass clocks</a>, ENSsys 2019.</li> 
