@@ -10,6 +10,7 @@ title: Publications
 -->
 
 <ul>
+  <li><a href="https://www.ewsn25.cs.kuleuven.be/home">PEARL: Power- and Energy-Aware Multicore Intermittent Computing</a>, EWSN 2025. </li> 
   <li><a href="https://dl.acm.org/doi/10.1145/3737288">CapDYN: Adaptive Self-Scaling Energy Storage for Powering Batteryless IoT</a>, ACM Transactions on Embedded Computing Systems (TECS), 2025.</li> 
   <li><a href="https://dl.acm.org/doi/10.1145/3666025.3699335">Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge</a>, SenSys 2024. </li> 
   <li><a href="https://ewsn24.tii.ae/">Memory-efficient Energy-adaptive Inference of Pre-Trained Models on Batteryless Embedded Systems</a>, EWSN 2024. </li> 
