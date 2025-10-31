@@ -1,41 +1,77 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
+# ============================================================================
+# Hugo Site .gitignore
+# ============================================================================
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
+# ============================================================================
+# Hugo Build Artifacts
+# ============================================================================
+
+# Generated site output
+public/
+
+# Hugo resources (processed assets)
+resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo stats
+hugo_stats.json
+
+# Auto-generated JS config
+**/assets/jsconfig.json
+
+# ============================================================================
+# Node.js & Package Managers
+# ============================================================================
+
+# Dependencies
+node_modules/
+
+# ============================================================================
+# Environment & Configuration
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ============================================================================
+# Development Tools
+# ============================================================================
+
+# IDE & Editors
+.vscode/
+.idea/
+
+# ============================================================================
+# Generated Content
+# ============================================================================
+
+# Pagefind search index
+pagefind/
+static/pagefind/
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
 *~
 
-# OS or Editor folders
-.DS_Store
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
 
-# Komodo
-*.komodoproject
-.komodotools
-
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
-node_modules
+*.log
+npm-debug.log*

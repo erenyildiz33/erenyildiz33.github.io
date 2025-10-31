@@ -1,118 +1,125 @@
-# Hyde
+# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/theme-academic-cv)
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+<h1 align="center">Build an Academic CV and Resumé That Stands Out</h1>
 
+<p align="center">
+  <strong>Your unfair advantage in academia and tech.</strong><br/>
+  Showcase your work, boost your citations, and land your dream job at places like <strong>Meta, Google, and Stanford</strong>.
+</p>
 
-## Contents
+<p align="center">
+  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>🚀 Deploy Your Free CV in 60s</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
+  &nbsp;•&nbsp;
+  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>✨ Upgrade to Pro</b></a>
+</p>
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Sticky sidebar content](#sticky-sidebar-content)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+<p align="center">
+  Trusted by 250,000+ researchers, students, and educators worldwide.
+</p>
 
+<p align="center">
+  <a href="https://discord.gg/z8wNYzb">
+    <img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord">
+  </a>
+  <a href="https://github.com/HugoBlox/theme-academic-cv">
+    <img src="https://img.shields.io/github/stars/HugoBlox/theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars">
+  </a>
+</p>
 
-## Usage
-
-Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
-
-
-## Options
-
-Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
-
-### Sidebar menu
-
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
-
-```
 ---
-layout: page
-title: About
+
+## Your Career Starts Here
+
+The Academic CV template is designed for impact. Whether you're an AI researcher, a recent graduate, or a seasoned professor, this is the last resumé you'll ever need.
+
+- **✍️ Showcase Your Expertise:** Easily write content with Markdown, Jupyter, or RStudio. Display your publications, talks, and projects in a stunning, professional layout.
+- **📈 Boost Your Citations:** Automatic BibTeX import and SEO-optimized pages mean your work gets discovered more easily, increasing your research impact.
+- **💼 Land Your Dream Job:** Create a memorable online presence that impresses recruiters from top tech firms and prestigious universities.
+- **🚀 Launch in Minutes:** No coding required. The Hugo Blox Builder lets you customize everything with drag-and-drop sections.
+
+<p align="center">
+  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
+    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" alt="Deploy this template" width="400">
+  </a>
+</p>
+
 ---
+
+## Level Up with Pro Templates
+
+Ready to take your career to the next level? Our Pro templates offer exclusive designs and features to help you stand out even more.
+
+<!-- <p align="center">
+  <img src="" alt="Free vs Pro templates">
+</p>-->
+
+| Feature              | Academic CV (Free)       | Academic CV Pro & Resumé Pro     |
+| -------------------- | ------------------------ | -------------------------------- |
+| **Design**           | Professional & clean     | **Exclusive premium designs**    |
+| **Layouts**          | Standard resumé sections | **Advanced layouts & timelines** |
+| **Call to Action**   | Simple contact link      | **Prominent CTA buttons**        |
+| **First Impression** | Strong                   | **Unforgettable**                |
+
+<br/>
+<p align="center">
+  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>💎 Get the Pro Pass</b></a> — Includes all Pro templates for a one-time price.<br/>
+  <a href="https://hugoblox.com/templates/academic-cv-pro/start?utm_source=github&utm_medium=readme">✨ Deploy Academic CV Pro</a>
+  &nbsp;•&nbsp;
+  <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
+</p>
+
+---
+
+## What Researchers Say
+
+> “Hugo Blox saved me 40+ hours on my lab site. BibTeX integration auto-updates publications — **our citations are up 3×**.”
+> — **Dr. Sarah Yang**, AI Researcher
+
+---
+
+## Get Started in Minutes
+
+### Recommended (Fastest)
+
+Deploy your site to GitHub Pages in just 60 seconds with our browser-based starter.
+
+👉 <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>Start with the Academic CV Template</b></a>
+
+### Prefer the Command Line?
+
+Use the local quickstart:
+
+```bash
+# 1. Install Hugo Extended → https://docs.hugoblox.com/getting-started/install-hugo/
+# 2. Clone this starter
+git clone https://github.com/HugoBlox/theme-academic-cv my-site
+cd my-site
+
+# 3. Run locally
+pnpm install && hugo server
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+For more guides, visit our documentation at **https://docs.hugoblox.com/**.
 
+---
 
-### Sticky sidebar content
+## Join the Community
 
-By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
+Join thousands of creators in our vibrant community to ask questions, share your work, and help us improve.
 
-```html
-<!-- Default sidebar -->
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    ...
-  </div>
-</div>
+- 💬 <a href="https://discord.gg/z8wNYzb">Discord</a>
+- 📚 <a href="https://docs.hugoblox.com/?utm_source=github&utm_medium=readme">Docs & Guides</a>
+- 🐦 <a href="https://x.com/BuildLore">X / Twitter</a>
+- ⭐ <a href="https://github.com/HugoBlox/hugo-blox-builder">Star on GitHub</a>
 
-<!-- Modified sidebar -->
-<div class="sidebar">
-  <div class="container">
-    ...
-  </div>
-</div>
-```
+---
 
+MIT © 2016-Present [George Cushen](https://georgecushen.com)
 
-### Themes
-
-Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
-
-![Hyde in red](https://f.cloud.github.com/assets/98681/1831229/42b0b354-7384-11e3-8462-31b8df193fe5.png)
-
-There are eight themes available at this time.
-
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-### Reverse layout
-
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
-
-Hyde's page orientation can be reversed with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-
-## Development
-
-Hyde has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+<!--START_SECTION:news-->
+<!--Updated at 2025-10-26T01:58:34.817Z-->
+<!--END_SECTION:news-->
