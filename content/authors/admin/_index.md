@@ -142,7 +142,7 @@ work:
 awards:
   - title: Rising Stars in Embedded Systems (EWSN 2025)
     date: '2025-09-22'
-    awarder: he International Conference on Embedded Wireless Systems and Networks (EWSN)
+    awarder: The International Conference on Embedded Wireless Systems and Networks (EWSN)
     icon: hero/trophy 
     summary: |
       I selected as one of the Rising Star in Conference on Embedded Wireless Systems and Networks (EWSN) 2025.
