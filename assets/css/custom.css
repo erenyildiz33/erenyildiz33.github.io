@@ -1,0 +1,38 @@
+.markdown {
+  max-width: 100% !important;
+  width: 100%;
+  text-align: justify;
+}
+
+.hbx-bg-gradient {
+  background: linear-gradient(120deg, #9be5fc, #ff896e) !important; /* mavi → turuncu */
+  color: white !important;
+}
+
+.full-width {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.wide-text {
+  max-width: 85% !important;
+  margin: 0 auto;
+}
+
+
+.hero-title {
+  font-size: 2rem !important;     /* Varsayılan ~4rem’dir */
+  line-height: 1.2 !important;
+  font-weight: 600 !important;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem !important;
+  color: #555 !important;
+}
+
+

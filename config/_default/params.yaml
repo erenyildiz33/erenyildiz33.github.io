@@ -7,6 +7,8 @@
 appearance:
   mode: system
   color: indigo
+  
+customCSS: ["css/custom.css"]
 
 # SEO
 marketing:
@@ -35,7 +37,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: ''
 
 # Site footer
 footer:
