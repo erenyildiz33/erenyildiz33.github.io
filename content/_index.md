@@ -1,8 +1,10 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Eren Yildiz - Georgia Tech'
 date: 2022-10-24
 type: landing
+favicon: 
+  logo: "media/icon/icon.png"
 
 design:
   # Default section spacing

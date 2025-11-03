@@ -10,6 +10,8 @@ appearance:
   
 customCSS: ["css/custom.css"]
 
+favicon:
+  logo: "media/icon/icon.png"
 # SEO
 marketing:
   seo:
