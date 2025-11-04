@@ -154,5 +154,5 @@ awards:
       I was awarded a $21,000 research fellowship by TUBITAK to conduct my project on improving the energy efficiency of battery-free sensor systems at Northwestern University.
 ---
 
-I am a **Postdoctoral Researcher** at the *School of Interactive Computing*, [Georgia Institute of Technology](https://ic.gatech.edu), working with [Prof. Josiah Hester](https://josiahhester.com).
+I am a **Postdoctoral Researcher** at the *School of Interactive Computing*, [Georgia Institute of Technology](https://ic.gatech.edu), working with [Prof. Josiah Hester](https://josiahhester.com)  in the [Ka Moamoa Lab](https://kamoamoa.com). I earned my Ph.D. in Computer Engineering from Ege University, advised by [Kasim Sinan Yildirim](https://sinanyil81.github.io).
 My research focuses on **battery-free, energy-harvesting systems** that enable sustainable, ultra-low-power computing. I develop hardware/software co-design approaches that allow sensing platforms to operate reliably across power failures.
