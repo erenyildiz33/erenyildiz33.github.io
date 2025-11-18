@@ -38,7 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text:
-        My research focuses on <b>enabling sustainable, ultra–low‐power computing platforms</b>  that operate reliably under <b>intermittent power conditions</b>  by leveraging ambient energy sources such as RF, solar, and vibration. I have developed novel timekeeping architectures, energy‐aware runtime systems, and resilient hardware/software co‐designs for the deployment of <b>self‐powered IoT devices</b> . With more than 10 peer‐reviewed publications, including in top‐tier venues such as   <b>OSDI, EuroSys, SenSys,</b> and <b>EWSN</b>, my work advances energy‐efficient sensing technologies for applications in smart infrastructure, healthcare monitoring, and environmental systems.
+        My research focuses on <b>enabling sustainable, ultra–low‐power computing platforms</b>  that operate reliably under <b>intermittent power conditions</b>  by leveraging ambient energy sources such as RF, solar, and vibration. I have developed novel timekeeping architectures, energy‐aware runtime systems, and resilient hardware/software co‐designs for the deployment of <b>self‐powered IoT devices</b> . With more than 10 peer‐reviewed publications, including in top‐tier venues such as   <b>OSDI, EuroSys, SenSys,</b> and <b>EWSN</b>, my work advances energy‐efficient sensing technologies for applications in smart infrastructure, healthcare monitoring, and environmental systems. These contributions were recently recognized with the <b>EWSN 2025 Rising Star Award</b>, highlighting the impact of my work on sustainable and ubiquitous intermittent computing.
 
     design:
       columns: '1'
