@@ -1,11 +1,11 @@
 ---
-title: "A Greener Edge: A Framework on Carbon-aware Edge ML System Design"
+title: "BIONIC: A Co-Designed Hardware and Runtime for Time-Sensitive Battery-Free IoT"
 authors:
-- Xuesi Chen
-- Ilan Mandel
 - admin
+- Davide Cavedon
+- Stefano Antonio Putelli
 - Josiah Hester
-- Udit Gupta
+- Kasım Sinan Yıldırım
 date: "2026-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -20,7 +20,7 @@ publication_types: ["paper-conferencer"]
 publication: "1The 24th ACM International Conference on Mobile Systems, Applications, and Services"
 publication_short: "MobiSys 26"
 
-abstract: Edge devices are often deployed at scale, yet their environ- mental impact, shaped by complex interactions between hardware choices, workload demands, power systems, and deployment context, has been overlooked by the mobile com- puting community. We present MicroGreen, a design-time framework that models lifetime carbon emissions for edge ML systems. By combining component-level carbon mod- els with workload profiling and environment-aware energy analysis, MicroGreen identifies carbon-optimal configura- tions across diverse conditions. Our results show that the most energy-efficient processor is not always the most sus- tainable, and that ambient energy availability, inference rate, and deployment lifetime can shift the carbon-optimal design by over an order of magnitude. Through a real vision-based visitor detection and counting deployment in New York City parks, we demonstrate that heterogeneous, location-aware designs reduce total emissions by 47.26% compared to a ho- mogeneous baseline.
+abstract: We introduce BIONIC (duraBle tImekeeper fOr iNtermIttent Computing), a novel power system architecture and software runtime that facilitates time-sensitive intermittent comput- ing for batteryless Internet of Things. BIONIC integrates timekeeping into energy storage hardware: its power system comprises two energy storage capacitors. BIONIC switches between these two energy storage capacitors to estimate ambient power. Using these estimations, BIONIC can pre- dict and track charging times (i.e., off-time durations) to schedule time-sensitive tasks and complete them on time. Our evaluations showed that BIONIC significantly extends the measurable off-time intervals by a factor of 15 to 1620 compared to state-of-the-art, while achieving an accuracy of up to 99.1% and effectively adapting to new energy condi- tions. Besides, in a typical batteryless application, BIONIC’s power-aware intermittent computing runtime boosted the number of completed time-sensitive operations by 30% while reducing failed timely operations by 29%.
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
