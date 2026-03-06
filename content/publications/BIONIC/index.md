@@ -20,7 +20,21 @@ publication_types: ["paper-conferencer"]
 publication: "1The 24th ACM International Conference on Mobile Systems, Applications, and Services"
 publication_short: "MobiSys 26"
 
-abstract: We introduce BIONIC (duraBle tImekeeper fOr iNtermIttent Computing), a novel power system architecture and software runtime that facilitates time-sensitive intermittent comput- ing for batteryless Internet of Things. BIONIC integrates timekeeping into energy storage hardware: its power system comprises two energy storage capacitors. BIONIC switches between these two energy storage capacitors to estimate ambient power. Using these estimations, BIONIC can pre- dict and track charging times (i.e., off-time durations) to schedule time-sensitive tasks and complete them on time. Our evaluations showed that BIONIC significantly extends the measurable off-time intervals by a factor of 15 to 1620 compared to state-of-the-art, while achieving an accuracy of up to 99.1% and effectively adapting to new energy condi- tions. Besides, in a typical batteryless application, BIONIC’s power-aware intermittent computing runtime boosted the number of completed time-sensitive operations by 30% while reducing failed timely operations by 29%.
+abstract: >
+  We introduce BIONIC (duraBle tImekeeper fOr iNtermIttent Computing), a novel
+  power system architecture and software runtime that facilitates time-sensitive
+  intermittent computing for batteryless Internet of Things. BIONIC integrates
+  timekeeping into energy storage hardware: its power system comprises two energy
+  storage capacitors. BIONIC switches between these two energy storage capacitors
+  to estimate ambient power. Using these estimations, BIONIC can predict and
+  track charging times (i.e., off-time durations) to schedule time-sensitive tasks
+  and complete them on time. Our evaluations showed that BIONIC significantly
+  extends the measurable off-time intervals by a factor of 15 to 1620 compared to
+  state-of-the-art, while achieving an accuracy of up to 99.1% and effectively
+  adapting to new energy conditions. Besides, in a typical batteryless application,
+  BIONIC’s power-aware intermittent computing runtime boosted the number of
+  completed time-sensitive operations by 30% while reducing failed timely
+  operations by 29%.
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
