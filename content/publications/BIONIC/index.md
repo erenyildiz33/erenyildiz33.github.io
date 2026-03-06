@@ -42,7 +42,7 @@ tags:
 - MobiSys
 - Sustainability
 - Intermittent Computing
-- Hardware Design
+- Batteryless Hardware
 
 featured: true
 
