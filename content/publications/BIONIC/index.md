@@ -41,7 +41,8 @@ abstract: >
 tags:
 - MobiSys
 - Sustainability
-- Carbon Footprint
+- Intermittent Computing
+- Hardware Design
 
 featured: true
 
