@@ -140,12 +140,18 @@ work:
 #     percent: 100
 
 awards:
+  - title: MobiSys Rising Stars Forum
+    date: '2026-06-21'
+    awarder: The International Conference on Mobile Systems, Applications, and Services (MobiSys)
+    icon: hero/star
+    summary: |
+      Selected to participate in the MobiSys Rising Stars Forum, recognizing promising early-career researchers in mobile and embedded systems.
   - title: Rising Stars in Embedded Systems (EWSN 2025)
     date: '2025-09-22'
     awarder: The International Conference on Embedded Wireless Systems and Networks (EWSN)
     icon: hero/trophy 
     summary: |
-      I selected as one of the Rising Star in Conference on Embedded Wireless Systems and Networks (EWSN) 2025.
+      I was selected as one of the Rising Star in Conference on Embedded Wireless Systems and Networks (EWSN) 2025.
   - title: 2214-A - International Research Fellowship Programme for PhD Students
     date: '2021-12-01'
     awarder: The Scientific And Technological Research Council Of Turkey(TUBITAK)
