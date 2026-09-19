@@ -150,8 +150,20 @@
   max-width: 52rem;
 }
 
+#papers {
+  padding-bottom: 0 !important;
+}
+
+#publications-hint {
+  padding: 0.75rem 0 2rem !important;
+}
+
 #publications-hint > .flex {
   max-width: 52rem;
+}
+
+#publications-hint > .flex > .mb-6:empty {
+  display: none;
 }
 
 #publications-hint .prose {
