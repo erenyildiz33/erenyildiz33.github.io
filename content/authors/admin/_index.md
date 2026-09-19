@@ -145,7 +145,7 @@ awards:
     awarder: The International Conference on Mobile Systems, Applications, and Services (MobiSys)
     icon: hero/trophy
     summary: |
-      Selected to participate in the MobiSys Rising Stars Forum, recognizing promising early-career researchers in mobile and embedded systems.
+      Selected to participate in the MobiSys Rising Stars Forum, presenting “System Support for Reliable Edge Computing under Intermittent Energy.”
   - title: EWSN Rising Star 2025
     date: '2025-09-22'
     awarder: The International Conference on Embedded Wireless Systems and Networks (EWSN)

@@ -35,4 +35,162 @@
   color: #555 !important;
 }
 
+#section-resume-biography-3 .resume-biography {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
 
+#section-resume-biography-3 .avatar-wrapper,
+#section-resume-biography-3 .avatar-wrapper .avatar {
+  width: 160px !important;
+  height: 160px !important;
+}
+
+#section-resume-biography-3 .mb-12,
+#section-resume-biography-3 .mb-16 {
+  margin-bottom: 2rem !important;
+}
+
+#section-resume-biography-3 .flex.items-center.gap-4.mb-8 {
+  margin-bottom: 1rem !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 {
+  gap: 0.5rem !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 > .group {
+  padding: 0.625rem 0.75rem !important;
+  border-radius: 0.625rem !important;
+  box-shadow: none !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 > .group > .flex {
+  gap: 0.625rem !important;
+  align-items: center;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 .w-12.h-12 {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 .w-6.h-6 {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 .text-xl {
+  font-size: 0.875rem !important;
+  line-height: 1.2rem !important;
+}
+
+#section-resume-biography-3 .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3 .mt-1 {
+  margin-top: 0 !important;
+  font-size: 0.8125rem !important;
+  line-height: 1.1rem !important;
+}
+
+#section-resume-biography-3 .flex.flex-wrap.gap-3 {
+  gap: 0.5rem !important;
+}
+
+.recent-news-list {
+  max-height: 23rem;
+  overflow-y: auto;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e5eaf0;
+  border-radius: 0.75rem;
+  background: #fbfcfe;
+  scrollbar-color: #b6c7dc transparent;
+  scrollbar-width: thin;
+}
+
+#news > .flex {
+  max-width: 52rem;
+}
+
+#news > .flex > * {
+  width: 100%;
+}
+
+#news > .flex > .mb-6 {
+  text-align: center;
+}
+
+#news .prose {
+  max-width: none;
+}
+
+.recent-news-empty {
+  margin: 0;
+  color: #526070;
+}
+
+.recent-news-items {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.recent-news-items li {
+  padding: 0.25rem 0 0.9rem;
+  border-bottom: 1px solid #e5eaf0;
+  color: #273548;
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
+
+.recent-news-items li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.recent-news-date {
+  color: oklch(0.372 0.044 257.287);
+}
+
+.recent-news-items a {
+  color: #1d639c;
+  text-decoration: none;
+}
+
+.recent-news-items a:hover {
+  text-decoration: underline;
+}
+
+.recent-news-hint {
+  margin: 0.75rem 0 0;
+  color: #526070;
+  font-size: 0.9375rem;
+}
+
+.service-record-category + .service-record-category {
+  margin-top: 1.25rem;
+}
+
+.service-record-category h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.service-record-category ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.service-record-category li {
+  padding: 0.15rem 0;
+  line-height: 1.5rem;
+}
+
+.service-record-category a {
+  color: #1d639c;
+  text-decoration: none;
+}
+
+.service-record-category a:hover {
+  text-decoration: underline;
+}
