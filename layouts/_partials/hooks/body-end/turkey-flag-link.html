@@ -1,0 +1,15 @@
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const flag = document.querySelector('#section-resume-biography-3 .avatar-emoji');
+    if (!flag || flag.parentElement?.tagName === 'A') return;
+
+    const link = document.createElement('a');
+    link.href = 'https://goturkiye.com';
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.title = 'Discover Türkiye';
+    link.setAttribute('aria-label', 'Discover Türkiye');
+    flag.replaceWith(link);
+    link.append(flag);
+  });
+</script>

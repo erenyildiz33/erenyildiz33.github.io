@@ -92,12 +92,21 @@ sections:
     content:
       title: Publications
       text: ''
+      count: 0
       filters:
         folders:
           - publications
         exclude_featured: false
     design:
       view: citation
+  - block: markdown
+    id: publications-hint
+    content:
+      text: '<p class="publications-hint">Showing the latest items by default. Scroll to view earlier updates.</p>'
+    design:
+      columns: '1'
+      spacing:
+        padding: [0, 0, 2rem, 0]
   - block: resume-awards
     id: awards
     content:

@@ -14,7 +14,7 @@ publishDate: "2026-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["paper-conferencer"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
 publication: "1The 24th ACM International Conference on Mobile Systems, Applications, and Services"
@@ -48,11 +48,11 @@ featured: true
 
 hugoblox:
   ids:
-    url: https://www.sigmobile.org/mobisys/2026/
+    url: https://dl.acm.org/doi/pdf/10.1145/3745756.3809207
 
 links:
 - type: pdf
-  url: https://www.sigmobile.org/mobisys/2026/
+  url: https://dl.acm.org/doi/pdf/10.1145/3745756.3809207
 # - type: code
 #   url: https://github.com/tinysystems/ImmortalThreads
 # - type: slides

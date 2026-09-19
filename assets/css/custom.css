@@ -46,6 +46,10 @@
   height: 160px !important;
 }
 
+#section-resume-biography-3 .avatar-emoji {
+  font-size: 24px !important;
+}
+
 #section-resume-biography-3 .mb-12,
 #section-resume-biography-3 .mb-16 {
   margin-bottom: 2rem !important;
@@ -122,6 +126,45 @@
   max-width: none;
 }
 
+/* Keep the complete publication record compact and scrollable, like Recent News. */
+#papers > .flex.flex-col.items-center.px-6:not(.max-w-prose) {
+  box-sizing: border-box;
+  max-width: 52rem;
+  max-height: 23rem;
+  overflow-y: auto;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e5eaf0;
+  border-radius: 0.75rem;
+  background: #fbfcfe;
+  scrollbar-color: #b6c7dc transparent;
+  scrollbar-width: thin;
+}
+
+#papers > .flex.flex-col.items-center.px-6:not(.max-w-prose) > .container {
+  width: 100%;
+  margin-top: 0;
+}
+
+#papers > .container {
+  max-width: 52rem;
+}
+
+#publications-hint > .flex {
+  max-width: 52rem;
+}
+
+#publications-hint .prose {
+  width: 100%;
+  max-width: none;
+}
+
+.publications-hint {
+  margin: 0;
+  color: #526070;
+  font-size: 0.9375rem;
+}
+
 .recent-news-empty {
   margin: 0;
   color: #526070;
@@ -164,6 +207,31 @@
   margin: 0.75rem 0 0;
   color: #526070;
   font-size: 0.9375rem;
+}
+
+.dark .recent-news-list,
+.dark #papers > .flex.flex-col.items-center.px-6:not(.max-w-prose) {
+  background: #18212f;
+  border-color: #334155;
+  scrollbar-color: #60728a transparent;
+}
+
+.dark .recent-news-items li {
+  color: #d7e0ea;
+  border-color: #334155;
+}
+
+.dark .recent-news-date {
+  color: #b8c9df;
+}
+
+.dark .recent-news-items a {
+  color: #7eb7e6;
+}
+
+.dark .recent-news-hint,
+.dark .publications-hint {
+  color: #a8b6c8;
 }
 
 .service-record-category + .service-record-category {
