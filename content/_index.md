@@ -54,7 +54,9 @@ sections:
       text: |-
         <div class="recent-news-list" role="region" aria-label="Recent news updates">
           <ul class="recent-news-items">
+            <!-- Temporarily hidden until the conditional acceptance is finalized.
             <li><strong class="recent-news-date">[Sep 2026]</strong> Our paper entitled <em>“<a href="https://arxiv.org/pdf/2607.23000">Magnetic Tunnel Junctions for Timekeeping in Intermittent Computing Systems</a>”</em> has been accepted to appear in <strong>ACM SenSys 2027</strong>.</li>
+            -->
             <li><strong class="recent-news-date">[May 2026]</strong> Invited to serve on the TPC of <a href="https://sensys.acm.org/2027/tpc_committee.html"><strong>SenSys 2027</strong></a>.</li>
             <li><strong class="recent-news-date">[May 2026]</strong> Selected as a <strong>MobiSys Rising Star 2026</strong> and honored to participate in the <a href="https://www.sigmobile.org/mobisys/2026/rising_stars_program/"><strong>MobiSys 2026 Rising Stars Forum</strong></a> with a talk titled <em>“System Support for Reliable Edge Computing under Intermittent Energy.”</em></li>
             <li><strong class="recent-news-date">[Feb 2026]</strong> Our paper entitled <em>“<a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809207">BIONIC: A Co-Designed Hardware and Runtime for Time-Sensitive Battery-Free IoT</a>”</em> has been accepted to appear in <strong>ACM MobiSys 2026</strong>.</li>
