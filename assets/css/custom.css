@@ -4,6 +4,12 @@
   text-align: justify;
 }
 
+.full-width-text > .flex,
+.full-width-text .prose {
+  width: 100%;
+  max-width: 52rem;
+}
+
 .hbx-bg-gradient {
   background: linear-gradient(120deg, #9be5fc, #ff896e) !important; /* mavi → turuncu */
   color: white !important;
@@ -40,6 +46,16 @@
   padding-bottom: 2.5rem !important;
 }
 
+#section-resume-biography-3 .bio-text {
+  text-align: justify;
+  text-align-last: left;
+}
+
+#section-resume-biography-3 .prose {
+  width: 100%;
+  max-width: none;
+}
+
 #section-resume-biography-3 .avatar-wrapper,
 #section-resume-biography-3 .avatar-wrapper .avatar {
   width: 160px !important;
@@ -48,6 +64,54 @@
 
 #section-resume-biography-3 .avatar-emoji {
   font-size: 24px !important;
+}
+
+/* Compact two-way language switch in the header. */
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #cbd5e1;
+  border-radius: 9999px;
+  background: #f8fafc;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1;
+}
+
+.language-switch a {
+  padding: 0.45rem 0.6rem;
+  color: #475569;
+  text-decoration: none;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.language-switch a:hover {
+  background: #e2e8f0;
+}
+
+.language-switch a[aria-current="page"] {
+  background: #1d639c;
+  color: #fff;
+}
+
+.dark .language-switch {
+  border-color: #475569;
+  background: #1e293b;
+}
+
+.dark .language-switch a {
+  color: #cbd5e1;
+}
+
+.dark .language-switch a:hover {
+  background: #334155;
+}
+
+.dark .language-switch a[aria-current="page"] {
+  background: #60a5fa;
+  color: #0f172a;
 }
 
 #section-resume-biography-3 .mb-12,

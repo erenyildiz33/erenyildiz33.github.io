@@ -161,4 +161,7 @@ awards:
 ---
 
 I am a **Postdoctoral Researcher** at the *School of Interactive Computing*, [Georgia Institute of Technology](https://ic.gatech.edu), working with [Dr. Josiah Hester](https://josiahhester.com)  in the [Ka Moamoa Lab](https://kamoamoa.com). I earned my Ph.D. in Computer Engineering from Ege University, advised by [Dr. Kasim Sinan Yildirim](https://sinanyil81.github.io).
-My research focuses on **battery-free, energy-harvesting systems** that enable sustainable, ultra-low-power computing. I develop hardware/software co-design approaches that allow sensing platforms to operate reliably across power failures.
+
+My research focuses on developing **sustainable and intelligent computing systems through cross-layer hardware/software co-design**. I work across embedded systems, computer architecture, runtime systems, and embedded AI to enable reliable and energy-efficient computing under tight and dynamically changing resource constraints. My work spans battery-free and intermittent computing, energy-efficient embedded and edge AI, adaptive resource management, and emerging hardware architectures for intelligent systems.
+
+My work has appeared at leading systems and embedded computing venues including **OSDI, EuroSys, SenSys, MobiSys, EWSN, and ACM TECS**.

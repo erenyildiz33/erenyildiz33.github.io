@@ -39,8 +39,12 @@ sections:
     content:
       title: '📚 My Research'
       subtitle: ''
-      text:
-        My research focuses on <b>enabling sustainable, ultra–low‐power computing platforms</b>  that operate reliably under <b>intermittent power conditions</b>  by leveraging ambient energy sources such as RF, solar, and vibration. I have developed novel timekeeping architectures, energy‐aware runtime systems, and resilient hardware/software co‐designs for the deployment of <b>self‐powered IoT devices</b> . With more than 10 peer‐reviewed publications, including in top‐tier venues such as   <b>OSDI, EuroSys, SenSys, MobiSys</b> and <b>EWSN</b>, my work advances energy‐efficient sensing technologies for applications in smart infrastructure, healthcare monitoring, and environmental systems. These contributions were recently recognized with the <b>EWSN 2025</b> and <b>MobiSys 2026 Rising Star</b>, highlighting the impact of my work on sustainable mobile and embedded systems.
+      text: |-
+        My research focuses on developing **sustainable and intelligent computing systems through cross-layer hardware–software co-design**. I investigate how computing systems can remain reliable, efficient, and intelligent despite limited and dynamically changing energy and computational resources. My work spans **embedded systems, computer architecture, runtime and programming systems, and embedded and edge AI**, with a particular emphasis on battery-free and intermittent computing, energy harvesting and management, and resource-efficient intelligence.
+
+        A major part of my research has focused on enabling **long-lived and energy-constrained sensing and computing systems**. I develop hardware architectures, energy-management mechanisms, runtime systems, and programming abstractions that allow devices to operate reliably despite unpredictable energy availability. Building on these foundations, I am developing **adaptive embedded intelligence**, including input-adaptive inference, budget- and input-aware computation, data-free model compression, and on-device adaptation under intermittent power.
+
+        Looking forward, my goal is to develop **adaptive and sustainable computing systems across the hardware–software stack**. I am particularly interested in systems where computation, energy management, and intelligence adapt together—from emerging energy-efficient hardware architectures and autonomous sensing devices to heterogeneous and distributed edge platforms.
 
     design:
       columns: '1'

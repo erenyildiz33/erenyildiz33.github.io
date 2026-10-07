@@ -1,0 +1,70 @@
+{{/* Local collection override: Turkish pages reuse the canonical English publication records. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $view := $block.design.view | default "card" }}
+{{ $items_offset := $block.content.offset | default 0 }}
+{{ $items_count := $block.content.count }}
+{{ if eq $items_count 0 }}
+  {{ $items_count = 65535 }}
+{{ else }}
+  {{ $items_count = $items_count | default 5 }}
+{{ end }}
+
+{{ $query := site.Pages }}
+{{ if eq site.Language.Lang "tr" }}
+  {{ range site.Sites }}
+    {{ if eq .Language.Lang "en" }}{{ $query = .Pages }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ $kinds := $block.content.filters.kinds | default (slice "page") }}
+{{ $query = where $query "Kind" "in" $kinds }}
+{{ if $block.content.page_type }}
+  {{ $query = where $query "Type" $block.content.page_type }}
+{{ end }}
+{{ if $block.content.filters.folders }}
+  {{ $query = where $query "Section" "in" $block.content.filters.folders }}
+{{ end }}
+{{ if $block.content.filters.tags }}
+  {{ $selected := slice }}
+  {{ range $block.content.filters.tags }}
+    {{ $tag_page := site.GetPage (printf "tags/%s" (urlize .)) }}
+    {{ if $tag_page }}{{ $selected = $selected | union $tag_page.Pages }}{{ end }}
+  {{ end }}
+  {{ if gt (len $selected) 0 }}{{ $query = $query | intersect $selected }}{{ end }}
+{{ end }}
+{{ if $block.content.filters.featured_only }}
+  {{ $query = where $query "Params.featured" "==" true }}
+{{ end }}
+{{ if $block.content.filters.exclude_featured }}
+  {{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+{{ if $block.content.filters.exclude_past }}
+  {{ $query = where $query "Date" ">=" now }}
+{{ end }}
+{{ if $block.content.filters.exclude_future }}
+  {{ $query = where $query "Date" "<" now }}
+{{ end }}
+{{ $sort_by := $block.content.sort_by | default "Date" }}
+{{ $sort_by = partial "functions/get_sort_by_parameter" $sort_by }}
+{{ $sort_ascending := $block.content.sort_ascending | default (eq $block.content.order "asc") | default false }}
+{{ $query = sort $query $sort_by (cond $sort_ascending "asc" "desc") }}
+{{ if gt $items_offset 0 }}
+  {{ $query = first $items_count (after $items_offset $query) }}
+{{ else }}
+  {{ $query = first $items_count $query }}
+{{ end }}
+
+{{ if $block.content.title }}
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $block.content.title | emojify | $page.RenderString }}</div>
+  {{ with $block.content.text }}<p>{{ . | emojify | $page.RenderString }}</p>{{ end }}
+</div>
+{{ end }}
+<div class="flex flex-col items-center px-6">
+  {{ $config := dict "columns" ($block.design.columns | default 2) "len" (len $query) "fill_image" ($block.design.fill_image | default true) "show_date" ($block.design.show_date | default true) "show_read_time" ($block.design.show_read_time | default true) "show_read_more" ($block.design.show_read_more | default true) }}
+  {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
+  {{ range $index, $item := $query }}
+    {{ partial "functions/render_view" (dict "page" $block "item" . "view" $view "index" $index "config" $config) }}
+  {{ end }}
+  {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+</div>

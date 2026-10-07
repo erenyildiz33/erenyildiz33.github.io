@@ -1,0 +1,18 @@
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const chooser = document.querySelector('[data-hb-language-chooser]');
+    const wrapper = chooser?.closest('.pl-1.mr-5');
+    if (!wrapper) return;
+
+    const isTurkish = window.location.pathname === '/tr' || window.location.pathname.startsWith('/tr/');
+    const englishPath = (isTurkish ? window.location.pathname.replace(/^\/tr(?=\/|$)/, '') : window.location.pathname) || '/';
+    const turkishPath = isTurkish ? window.location.pathname : `/tr${englishPath.startsWith('/') ? englishPath : `/${englishPath}`}`;
+    const suffix = `${window.location.search}${window.location.hash}`;
+
+    wrapper.innerHTML = `
+      <nav class="language-switch" aria-label="Language selector">
+        <a href="${englishPath}${suffix}"${isTurkish ? '' : ' aria-current="page"'}>ENG</a>
+        <a href="${turkishPath}${suffix}"${isTurkish ? ' aria-current="page"' : ''}>TR</a>
+      </nav>`;
+  });
+</script>

@@ -8,15 +8,28 @@ en:
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
+tr:
+  languageCode: tr-TR
+  languageName: Türkçe
+  weight: 2
+  menus:
+    main:
+      - name: Ana Sayfa
+        url: /
+        weight: 10
+      - name: Haberler
+        url: /#news
+        weight: 20
+      - name: Yayınlar
+        url: /#papers
+        weight: 30
+      - name: Ödüller
+        url: /#awards
+        weight: 40
+      - name: Akademik Hizmetler
+        url: /#service
+        weight: 50
+      - name: Özgeçmiş
+        url: /uploads/resume1.pdf
+        weight: 60
 #        weight: 1
