@@ -14,5 +14,15 @@
         <a href="${englishPath}${suffix}"${isTurkish ? '' : ' aria-current="page"'}>ENG</a>
         <a href="${turkishPath}${suffix}"${isTurkish ? ' aria-current="page"' : ''}>TR</a>
       </nav>`;
+
+    if (isTurkish) {
+      const cvLink = [...document.querySelectorAll('.nav-link')]
+        .find((link) => link.textContent.trim() === 'Özgeçmiş');
+      if (cvLink) {
+        cvLink.href = '/uploads/resume1.pdf';
+        cvLink.removeAttribute('target');
+        cvLink.removeAttribute('rel');
+      }
+    }
   });
 </script>

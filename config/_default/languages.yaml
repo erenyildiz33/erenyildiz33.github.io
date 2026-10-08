@@ -30,6 +30,6 @@ tr:
         url: /#service
         weight: 50
       - name: Özgeçmiş
-        url: /uploads/resume1.pdf
+        url: https://erenyildiz33.github.io/uploads/resume1.pdf
         weight: 60
 #        weight: 1
