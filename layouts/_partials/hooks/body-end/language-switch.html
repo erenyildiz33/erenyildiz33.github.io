@@ -11,8 +11,8 @@
 
     wrapper.innerHTML = `
       <nav class="language-switch" aria-label="Language selector">
-        <a href="${englishPath}${suffix}"${isTurkish ? '' : ' aria-current="page"'}>ENG</a>
-        <a href="${turkishPath}${suffix}"${isTurkish ? ' aria-current="page"' : ''}>TR</a>
+        <a href="${englishPath}${suffix}" aria-label="English" title="English"${isTurkish ? '' : ' aria-current="page"'}>🇺🇸</a>
+        <a href="${turkishPath}${suffix}" aria-label="Türkçe" title="Türkçe"${isTurkish ? ' aria-current="page"' : ''}>🇹🇷</a>
       </nav>`;
 
     if (isTurkish) {

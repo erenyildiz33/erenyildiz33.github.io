@@ -12,10 +12,6 @@ last_name: Yildiz
 # Pronouns (optional)
 # pronouns: he/him
 
-# Status emoji or custom icon
-status:
-  icon: "🇹🇷"
-
 # Is this the primary user of the site?
 superuser: true
 

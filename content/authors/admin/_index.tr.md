@@ -2,8 +2,6 @@
 title: Eren Yildiz
 first_name: Eren
 last_name: Yildiz
-status:
-  icon: "🇹🇷"
 superuser: true
 highlight_name: true
 role: Doktora Sonrası Araştırmacı
