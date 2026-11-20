@@ -27,28 +27,13 @@ sections:
         size: medium
         shape: circle
   - block: markdown
-    content:
-      title: '📚 Araştırmalarım'
-      subtitle: ''
-      text: |-
-        Araştırmalarım, **katmanlar arası donanım–yazılım ortak tasarımı yoluyla sürdürülebilir ve akıllı bilgi işlem sistemleri geliştirmeye** odaklanıyor. Enerji ve hesaplama kaynaklarının sınırlı ve dinamik olarak değiştiği koşullarda, bilgi işlem sistemlerinin nasıl güvenilir, verimli ve akıllı şekilde çalışabileceğini araştırıyorum. Çalışmalarım; **gömülü sistemler, bilgisayar mimarisi, çalışma zamanı ve programlama sistemleri ile gömülü ve uç yapay zekâ** alanlarını kapsıyor. Özellikle bataryasız ve kesintili bilgi işlem, enerji hasadı ve yönetimi ile kaynakları verimli kullanan akıllı sistemler üzerine yoğunlaşıyorum.
-
-        Araştırmalarımın önemli bir bölümü, **uzun süre çalışabilen ve enerji kısıtlı algılama ve bilgi işlem sistemleri** geliştirmeye odaklanıyor. Enerji erişiminin öngörülemez olduğu koşullarda cihazların güvenilir şekilde çalışmasını sağlayan donanım mimarileri, enerji yönetimi mekanizmaları, çalışma zamanı sistemleri ve programlama soyutlamaları geliştiriyorum. Bu çalışmaların üzerine inşa ettiğim güncel araştırmalarımda ise **uyarlanabilir gömülü yapay zekâ** üzerine çalışıyorum. Girdiye göre uyarlanan çıkarım, enerji ve hesaplama bütçesi ile girdinin özelliklerini dikkate alan hesaplama, verisiz model sıkıştırma ve kesintili güç altında cihaz üzerinde adaptasyon bu çalışmaların başlıca örnekleri arasında yer alıyor.
-
-        Gelecekteki hedefim, donanımdan yazılıma tüm katmanlarda **uyarlanabilir ve sürdürülebilir bilgi işlem sistemleri** geliştirmek. Özellikle hesaplama, enerji yönetimi ve yapay zekânın değişen koşullara birlikte uyum sağladığı sistemlerle ilgileniyorum. Bu vizyon; yeni nesil enerji verimli donanım mimarileri ve otonom algılama cihazlarından, heterojen ve dağıtık uç bilgi işlem platformlarına kadar uzanıyor.
-
-    design:
-      columns: '1'
-      spacing:
-        padding: [2rem, 0, 0, 0]
-      css_class: "full-width-text"
-  - block: markdown
     id: news
     content:
       title: Son Haberler
       text: |-
         <div class="recent-news-list" role="region" aria-label="Son haberler">
           <ul class="recent-news-items">
+            <li><strong class="recent-news-date">[Kas 2026]</strong> <em>“<a href="https://sensys.acm.org/2027/">Failure Is an Option: Broken Memory as a Timekeeper for Intermittent Computing</a>”</em> başlıklı makalemiz <strong>ACM SenSys 2027</strong>'de yayımlanmak üzere kabul edildi.</li>
             <li><strong class="recent-news-date">[May 2026]</strong> <a href="https://sensys.acm.org/2027/tpc_committee.html"><strong>SenSys 2027</strong></a> Teknik Program Komitesi'nde görev almaya davet edildim.</li>
             <li><strong class="recent-news-date">[May 2026]</strong> <strong>MobiSys Rising Star 2026</strong> olarak seçildim ve <a href="https://www.sigmobile.org/mobisys/2026/rising_stars_program/"><strong>MobiSys 2026 Rising Stars Forum</strong></a> kapsamında “System Support for Reliable Edge Computing under Intermittent Energy” başlıklı bir konuşma yaptım.</li>
             <li><strong class="recent-news-date">[Feb 2026]</strong> <em>“<a href="https://dl.acm.org/doi/pdf/10.1145/3745756.3809207">BIONIC: A Co-Designed Hardware and Runtime for Time-Sensitive Battery-Free IoT</a>”</em> başlıklı makalemiz <strong>ACM MobiSys 2026</strong>'da yayımlanmak üzere kabul edildi.</li>

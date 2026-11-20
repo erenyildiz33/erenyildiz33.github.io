@@ -36,28 +36,13 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        My research focuses on developing **sustainable and intelligent computing systems through cross-layer hardware–software co-design**. I investigate how computing systems can remain reliable, efficient, and intelligent despite limited and dynamically changing energy and computational resources. My work spans **embedded systems, computer architecture, runtime and programming systems, and embedded and edge AI**, with a particular emphasis on battery-free and intermittent computing, energy harvesting and management, and resource-efficient intelligence.
-
-        A major part of my research has focused on enabling **long-lived and energy-constrained sensing and computing systems**. I develop hardware architectures, energy-management mechanisms, runtime systems, and programming abstractions that allow devices to operate reliably despite unpredictable energy availability. Building on these foundations, I am developing **adaptive embedded intelligence**, including input-adaptive inference, budget- and input-aware computation, data-free model compression, and on-device adaptation under intermittent power.
-
-        Looking forward, my goal is to develop **adaptive and sustainable computing systems across the hardware–software stack**. I am particularly interested in systems where computation, energy management, and intelligence adapt together—from emerging energy-efficient hardware architectures and autonomous sensing devices to heterogeneous and distributed edge platforms.
-
-    design:
-      columns: '1'
-      spacing:
-        padding: [2rem, 0, 0, 0]
-      css_class: "full-width-text"
-  - block: markdown
     id: news
     content:
       title: Recent News
       text: |-
         <div class="recent-news-list" role="region" aria-label="Recent news updates">
           <ul class="recent-news-items">
+            <li><strong class="recent-news-date">[Nov 2026]</strong> Our paper entitled <em>“<a href="https://sensys.acm.org/2027/">Failure Is an Option: Broken Memory as a Timekeeper for Intermittent Computing</a>”</em> has been accepted to appear in <strong>ACM SenSys 2027</strong>.</li>
             <!-- Temporarily hidden until the conditional acceptance is finalized.
             <li><strong class="recent-news-date">[Sep 2026]</strong> Our paper entitled <em>“<a href="https://arxiv.org/pdf/2607.23000">Magnetic Tunnel Junctions for Timekeeping in Intermittent Computing Systems</a>”</em> has been accepted to appear in <strong>ACM SenSys 2027</strong>.</li>
             -->

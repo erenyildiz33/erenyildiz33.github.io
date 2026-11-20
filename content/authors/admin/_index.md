@@ -160,4 +160,4 @@ I am a **Postdoctoral Researcher** at the *School of Interactive Computing*, [Ge
 
 My research focuses on developing **sustainable and intelligent computing systems through cross-layer hardware/software co-design**. I work across embedded systems, computer architecture, runtime systems, and embedded AI to enable reliable and energy-efficient computing under tight and dynamically changing resource constraints. My work spans battery-free and intermittent computing, energy-efficient embedded and edge AI, adaptive resource management, and emerging hardware architectures for intelligent systems.
 
-My work has appeared at leading systems and embedded computing venues including **OSDI, EuroSys, SenSys, MobiSys, EWSN, and ACM TECS**.
+I was selected as a **MobiSys Rising Star 2026** and an **EWSN Rising Star 2025**, recognizing my research contributions to sustainable and intelligent computing systems. My work has appeared at leading systems and embedded computing venues including **OSDI, EuroSys, SenSys, MobiSys, EWSN, and ACM TECS**.

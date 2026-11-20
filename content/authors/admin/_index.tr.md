@@ -50,4 +50,4 @@ Georgia Institute of Technology School of Interactive Computing bünyesindeki **
 
 Araştırmalarım, **katmanlar arası donanım–yazılım ortak tasarımı yoluyla sürdürülebilir ve akıllı bilgi işlem sistemleri geliştirmeye** odaklanıyor. Gömülü sistemler, bilgisayar mimarisi, çalışma zamanı sistemleri ve gömülü yapay zekâ alanlarında çalışarak, kaynakların kısıtlı ve dinamik olarak değiştiği koşullarda güvenilir ve enerji verimli bilgi işlem sistemleri geliştirmeyi hedefliyorum. Çalışmalarım; **bataryasız ve kesintili bilgi işlem, enerji verimli gömülü ve uç yapay zekâ, uyarlanabilir kaynak yönetimi ve akıllı sistemlere yönelik yeni nesil donanım mimarilerini** kapsıyor.
 
-Çalışmalarım **OSDI, EuroSys, SenSys, MobiSys, EWSN ve ACM TECS** gibi sistemler ve gömülü bilgi işlem alanlarının önde gelen konferans ve dergilerinde yayımlandı.
+Sürdürülebilir ve akıllı bilgi işlem sistemlerine yönelik araştırma katkılarım sayesinde **MobiSys Rising Star 2026** ve **EWSN Rising Star 2025** olarak seçildim. Çalışmalarım **OSDI, EuroSys, SenSys, MobiSys, EWSN ve ACM TECS** gibi sistemler ve gömülü bilgi işlem alanlarının önde gelen konferans ve dergilerinde yayımlandı.
