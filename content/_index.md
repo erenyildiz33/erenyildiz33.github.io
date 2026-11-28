@@ -123,6 +123,7 @@ sections:
             <ul>
               <li>ACM Transactions on Interactive, Mobile, Wearable and Ubiquitous Technologies</li>
               <li>IEEE Internet of Things Journal</li>
+              <li>IEEE Internet Computing</li>
               <li>Future Generation Computer Systems</li>
               <li>IEEE Transactions on Very Large Scale Integration Systems</li>
               <li>IEEE Transactions on Sustainable Computing</li>
